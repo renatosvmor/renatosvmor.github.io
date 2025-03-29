@@ -6,6 +6,16 @@
     <title>Renato M. Silva</title>
     <!-- Link do CSS do Bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Classe para padronizar o tamanho das imagens */
+        .card-img-top {
+          width: auto; /* A largura se ajusta automaticamente */
+          height: 150px; /* Altura fixa para as imagens */
+          object-fit: contain; /* Ajusta a imagem para caber sem distorcer ou cortar */
+        }
+    </style>
+
 </head>
 <body>
 
@@ -38,17 +48,65 @@
 
 
     <h1>Current</h1>
-    <p>&nbsp;</p>
 
-    <h2>Master's Students</h2>
-    <p>Adrian Moagne Nery Carvalho <a href="https://lattes.cnpq.br/6609683297818199" target="_blank"><img src="../images/link.png" alt="Link" style="width: 20px; height: 20px;"></a></p>
 
-    <p>&nbsp;</p>
-    <h2>Undergraduate Research Students</h2>
-    <p>Manuela Guedes Wanderley <a href="http://lattes.cnpq.br/5917172448924425" target="_blank"><img src="../images/link.png" alt="Link" style="width: 20px; height: 20px;"></a></p>
-    <p>Fabio Kauê Araujo da Silva <a href="http://lattes.cnpq.br/3442092790754648" target="_blank"><img src="../images/link.png" alt="Link" style="width: 20px; height: 20px;"></a></p>
-    <p>Lucca Baptista Silva Ferraz <a href="http://lattes.cnpq.br/1042802878986546" target="_blank"><img src="../images/link.png" alt="Link" style="width: 20px; height: 20px;"></a></p>
-    <p>Camila Aya Saito <a href="http://lattes.cnpq.br/3196017605636005" target="_blank"><img src="../images/link.png" alt="Link" style="width: 20px; height: 20px;"></a></p>
+    <div class="container mt-5">
+        <h2>Master's Students</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="../images/profile.png" class="card-img-top" alt="Adrian Moagne Nery Carvalho">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Adrian Moagne Nery Carvalho</h5>
+                        <a href="https://lattes.cnpq.br/6609683297818199" target="_blank" class="btn btn-primary btn-sm">Lattes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-4">Undergraduate Research Students</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="../images/Manuela-Guedes.gif" class="card-img-top" alt="Manuela Guedes Wanderley">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Manuela Guedes Wanderley</h5>
+                        <a href="http://lattes.cnpq.br/5917172448924425" target="_blank" class="btn btn-primary btn-sm">Lattes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="../images/Fabio-Silva.gif" class="card-img-top" alt="Fabio Kauê Araujo da Silva">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Fabio Kauê Araujo da Silva</h5>
+                        <a href="http://lattes.cnpq.br/3442092790754648" target="_blank" class="btn btn-primary btn-sm">Lattes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="../images/Lucca-Ferraz.jpeg" class="card-img-top" alt="Lucca Baptista Silva Ferraz">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Lucca Baptista Silva Ferraz</h5>
+                        <a href="http://lattes.cnpq.br/1042802878986546" target="_blank" class="btn btn-primary btn-sm">Lattes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="../images/Camila-Saito.jpeg" class="card-img-top" alt="Camila Aya Saito">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Camila Aya <br />Saito</h5>
+                        <a href="http://lattes.cnpq.br/3196017605636005" target="_blank" class="btn btn-primary btn-sm">Lattes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
